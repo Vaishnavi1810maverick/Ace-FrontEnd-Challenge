@@ -1,0 +1,229 @@
+html{
+  scroll-behavior: smooth;
+}
+#Home{
+  background-image:url(Images/heroImage.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+height: 620px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-sizing: border-box;
+ position: relative;
+  object-fit:scale-down;
+font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+}
+
+.homeTitle{
+  padding-top: 15%;
+  color: white;
+  text-align: center;
+font-family: 'Cormorant Garamond', serif;
+font-size: 5rem;
+}
+.navbar-inner {
+    background:transparent;
+}
+.navbar-brand{
+  font-family: 'Cormorant Garamond', serif;
+font-size: 50px !important;
+font-weight: bold;
+}
+.WhiteSection{
+  text-align: center;
+  padding:6%;
+font-family: 'Oxygen', sans-serif;
+}
+
+
+.SectionTitle{
+  text-align: center;
+  padding-left: 6%;
+font-family: 'Oxygen', sans-serif;
+font-weight: bold;
+}
+
+ .typing {
+         position: relative;
+         line-height: 24px;
+         display: inline-block;
+         color: #FFF;
+         min-width: 1px;
+         min-height: 24px;
+       }
+       .typing:after {
+         content: "";
+         position: absolute;
+         top: 5%;
+         right: -2px;
+         width: 1px;
+         height: 90%;
+         border-right: 2px solid #FFF;
+         animation: blink .5s infinite ease;
+       }
+       @keyframes blink{
+         0% {
+           opacity: 0;
+         }
+         100% {
+           opacity: 1%;
+         }
+       }
+.para{
+  text-align: center;
+padding-left: 30%;
+padding-right:20%;
+}
+
+#Services{
+padding-bottom: 5%;
+  background: url("Images/design-team.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+   object-fit:scale-down;
+   color:#fff;
+}
+
+.container{
+padding: 4%;
+text-align: center;
+}
+.imgPadded{
+  width: auto;
+  max-width: 100% ;
+  height: auto;
+border-radius: 3%;
+}
+.workContainer1{
+    padding:15%;
+}
+.workContainer2{
+  padding:3%;
+}
+.workTitle{
+  word-wrap: break-word;
+  width: 450px;
+  padding: 5%;
+}
+
+.paddedText1{
+  padding-left: 10%;
+  font-family: 'Dosis', sans-serif;
+color: grey;
+}
+.paddedText2{
+  padding-left: 10%;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+.paddedTitle{
+  padding-left: 10%;
+  font-family: 'Dosis', sans-serif;
+color: white;
+font-weight: lighter;
+font-size: 3rem;
+}
+.paddedContent{
+  padding-left: 10%;
+  font-family: 'Dosis', sans-serif;
+font-weight: bolder;
+  color: white;
+  font-size: 4rem;
+}
+.TeamContainer{
+  padding-left: 45%;
+}
+.PeopleImage1{
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  opacity: 0.8;
+}
+.imgClass1{
+
+  padding-left: 55%;
+    display: inline-block;
+}
+.imgClass3{
+  padding-left:5%;
+
+  display: inline-block;
+}
+.imgClass2{
+  padding-left: 5%;
+
+    display: inline-block;
+}
+
+#Team{
+  color: white;
+  background: url(Images/post.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+padding: 3%;
+}
+
+.clientImg{
+  width: 60px;
+  height: 60px;
+  border-radius: 8%;
+  float:left;
+  display: inline-block;
+}
+
+.comment{
+  word-wrap: break-word;
+  width: 560px;
+padding-bottom: 3%;
+font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+}
+
+#Clients{
+  padding: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+.clientName{
+  padding-left:10%;
+font-family: 'Dosis', sans-serif;
+
+}
+
+#contact{
+  background: #000;
+  color: #fff;
+  padding: 5%;
+  text-align:
+  
+}
+.link{
+  color:white;
+
+}
+button.link{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+
+}
+footer{
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .single .inside-article, .comments-area {
+	padding: 0;
+    }
+}
