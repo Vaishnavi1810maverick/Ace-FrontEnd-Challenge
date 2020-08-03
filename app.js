@@ -1,4 +1,4 @@
-var typeString = ['create beautiful website','create fast web service','offer High demand services'];
+var typeString = ['create beautiful website','create fast web service','offer High services'];
       var  i = 0;
       var count = 0
       var selectedText = '';
